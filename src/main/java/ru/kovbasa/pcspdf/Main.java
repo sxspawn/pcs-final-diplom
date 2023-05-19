@@ -17,7 +17,7 @@ import ru.kovbasa.pcspdf.model.PageEntry;
 import ru.kovbasa.pcspdf.search.BooleanSearchEngine;
 import ru.kovbasa.pcspdf.search.SearchEngine;
 
-public class Server {
+public class Main {
 
     public static void main(String[] args) {
         SearchEngine searchEngine = new BooleanSearchEngine(new File("pdfs"));
